@@ -1,11 +1,9 @@
-import { useState } from "react";
+import Navbar from "./navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
-      <div>Hello</div>
+      <Navbar name="Ajay ram" />
     </div>
   );
 }
