@@ -3,11 +3,7 @@ const about = () => {
     <div className="m-24 flex flex-col items-center bg-zinc-800 rounded-2xl gap-8">
       <p className="text-6xl font-bold py-10">About Me</p>
       <div className="flex">
-        <img
-          src="../../public/static/images/github.svg"
-          alt=""
-          className="w-60 m-10"
-        />
+        <img src="../../public/github.svg" alt="" className="w-60 m-10" />
         <div>
           <p className="text-3xl px-16 pb-24 flex-wrap">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
