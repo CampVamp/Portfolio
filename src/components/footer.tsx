@@ -1,6 +1,6 @@
 const footer = () => {
   return (
-    <div className="flex flex-col items-center gap-4">
+    <div className="flex flex-col items-center gap-4 mb-12">
       <p className="self-center text-2xl">find me on</p>
       <ul className="flex gap-4">
         <li className="transition-all duration-300 hover:-translate-y-1">
