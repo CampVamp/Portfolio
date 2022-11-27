@@ -5,17 +5,29 @@ const footer = () => {
       <ul className="flex gap-4">
         <li className="transition-all duration-300 hover:-translate-y-1">
           <a href="https://instagram.com/_____.aj.________?igshid=ZDdkNTZiNTM=">
-            <img src="../../instagram.svg" alt="" className="w-14" />
+            <img
+              src="../../public/static/images/instagram.svg"
+              alt=""
+              className="w-14"
+            />
           </a>
         </li>
         <li className="transition-all duration-300 hover:-translate-y-1">
           <a href="https://www.linkedin.com/in/ajay-ram-s-a4533a1b4">
-            <img src="../../linkedin.svg" alt="" className="w-14" />
+            <img
+              src="../../public/static/images/linkedin.svg"
+              alt=""
+              className="w-14"
+            />
           </a>
         </li>
         <li className="transition-all duration-300 hover:-translate-y-1">
           <a href="https://github.com/CampVamp">
-            <img src="../../github.svg" alt="" className="w-14" />
+            <img
+              src="../../public/static/images/github.svg"
+              alt=""
+              className="w-14"
+            />
           </a>
         </li>
       </ul>
