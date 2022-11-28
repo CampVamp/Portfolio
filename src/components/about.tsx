@@ -1,6 +1,13 @@
+import { animate, motion } from "framer-motion";
+
 const about = () => {
   return (
-    <div className="m-24 flex flex-col items-center bg-zinc-800 rounded-2xl gap-8">
+    <motion.div
+      className="m-24 flex flex-col items-center bg-zinc-800 rounded-2xl gap-8"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.6, delay: 0.8 }}
+    >
       <p className="text-6xl font-bold py-10">About Me</p>
       <div className="flex">
         <img src="/github.svg" alt="" className="w-60 m-10" />
@@ -20,7 +27,7 @@ const about = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
